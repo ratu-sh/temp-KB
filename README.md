@@ -904,4 +904,4 @@ netstat -an | findstr 5443
 
 #### Typical Errors
 
-1. FQDN should have CAPITAL letters like https://DOMAIN.example.com - should be https://domain.example.com
+1. FQDN shouldn't have `CAPITAL` letters like https://DOMAIN.example.com - should be https://domain.example.com
