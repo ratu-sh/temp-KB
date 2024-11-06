@@ -894,12 +894,12 @@ curl -ik https://win-rds.domain.net:5443/ --cacert /etc/indeed/indeed-pam/ca-cer
 ```
 check on windows
 ```cmd
+netstat -an | findstr 5443
+```
+</details>
 
 ### FAQ
 
 #### Typical Errors
 
 1. FQDN should have CAPITAL letters like https://DOMAIN.example.com - should be https://domain.example.com
-netstat -an | findstr 5443
-```
-</details>
